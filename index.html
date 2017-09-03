@@ -26,30 +26,29 @@
 </head>
 <body>
     <nav id="topnav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a id="go-home" href="#home" class="navbar-left"><img class="logo" src="./assets/img/logo.png"></a>
-                </div>
-
-                <div id="navbar" class="navbar-collapse collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#banner">HOME</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#membership">PHOTOGRAPHY</a></li>
-                        <li><a href="#social">DESIGN</a></li>
-                        <li><a href="#timetable">FILM</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="go-home" href="#home" class="navbar-left"><img class="logo" src="./assets/img/logo.png"></a>
             </div>
-        </nav>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <ul id="mainNav" class="nav navbar-nav">
+                    <li class="active"><a href="#banner">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#photography">PHOTOGRAPHY</a></li>
+                    <li><a href="#social">DESIGN</a></li>
+                    <li><a href="#film">FILM</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
     <div id="fullpage">
-        <div class="section" data-anchor="banner" id="section0">
+        <div class="section" id="banner">
             <div class="transparent-block">
                 <div class="centered">
                     <div class="col-md-6 col-md-offset-5">
@@ -60,12 +59,12 @@
                 </div>
             </div>
         </div>
-        <div class="section" data-anchor="about" id="section1">
+        <div class="section" id="about">
             <div class="slide">
                 <div class="blue-block">
                     <div class="centered">
                         <div class="col-md-6 no-padding text-right">
-                            <h1 class="title">Tonaya Collins</h1>
+                            <h1 class="title-grey">Tonaya Collins</h1>
                         </div>
                         <div class="col-md-6  no-padding text-left">
                             <br class="mobileHide">
@@ -87,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide active">
+            <div class="slide">
                 <div class="contact-block">
                     <div class="centered-contact">
                         <div class="row">
@@ -108,10 +107,10 @@
                                 <form class="login-form" method="post">
                                     <h2><b>FOR QUOTES, INQUIRIES &amp; APPOINTMENTS</b></h2>
                                     <p>tonayalaa@gmail.com - 0401 724 217</p>
-                                  <input type="text" placeholder="Name" name="name" required><br>
-                                  <input type="text" placeholder="Email" name="email" required><br>
+                                  <input type="text" placeholder="Name" name="name" required>
+                                  <input type="text" placeholder="Email" name="email" required>
                                   <textarea type="text" placeholder="Message" name="email" required></textarea><br>
-                                  <input type="submit" name="submit" value="SEND"></input>
+                                  <input type="submit" name="submit" value="SEND">
                                 </form>
                             </div>
                         </div>
@@ -119,23 +118,214 @@
                 </div>
             </div>
         </div>
-        <div class="section" data-anchor="banner" id="section0">
+        <div class="section" id="photography">
             <div class="transparent-block">
                 <div class="centered">
-                    <div class="col-md-6 col-md-offset-5">
-                        <h1 class="title">BRISBANE 2017</h1>
-                        <p>Taking bookings, request a quote today.<br>
-                            0401 724 217</p>
+                    <div class="col-md-12">
+                        <h1 class="title">Photography</h1>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                BLACK &amp; WHITE EDITORIAL
+                            </span>
+                            <img src="./assets/img/photography/gallery/1.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                COLOUR EDITORIAL
+                            </span>
+                            <img src="./assets/img/photography/gallery/2.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                HOLLYWOOD DOLLS
+                            </span>
+                            <img src="./assets/img/photography/gallery/3.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                TIBET
+                            </span>
+                            <img src="./assets/img/photography/gallery/4.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                HUMAN ACTION &amp; INTERACTION
+                            </span>
+                            <img src="./assets/img/photography/gallery/5.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                LENOVO
+                            </span>
+                            <img src="./assets/img/photography/gallery/6.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                HUMAN BEHAVIOUR
+                            </span>
+                            <img src="./assets/img/photography/gallery/7.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                QINHAI
+                            </span>
+                            <img src="./assets/img/photography/gallery/8.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                LANDSCAPES
+                            </span>
+                            <img src="./assets/img/photography/gallery/9.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                FINE ART
+                            </span>
+                            <img src="./assets/img/photography/gallery/10.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                COLOURFUL SCIENCE
+                            </span>
+                            <img src="./assets/img/photography/gallery/11.webp">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                SAN FRANCISCO
+                            </span>
+                            <img src="./assets/img/photography/gallery/12.webp">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="section active" id="design">
+            <div class="transparent-block">
+                <div class="centered">
+                    <div class="col-md-12">
+                        <h1 class="title">Design</h1>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                RUMPLE RETURNS
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/1.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                SEAMSYNC
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/2.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                HUSSY PLANET
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/3.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                UI/UX
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/4.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                ZENVA
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/5.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                YOUTUBE BANNERS
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/6.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                SWIPE RIGHT
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/7.png">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery">
+                        <a href="#" class="wrapper">
+                            <span class="text">
+                                ASST. LOGOS
+                            </span>
+                            <img src="./assets/img/photography/gallery_design/8.png">
+                        </a>
+                    </div>
+                    <div class="col-md-12 push-down">
+                        <h1 class="title">Film</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="film">
+            <div class="slide">
+                <div class="transparent-block">
+                    <iframe src="https://www.youtube.com/embed/e4NU1p9v_CI" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="transparent-block">
+                    <iframe src="https://www.youtube.com/embed/WGC9fzMFMvc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="transparent-block">
+                    <iframe src="https://www.youtube.com/embed/Zt25e28465o" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="transparent-block">
+                    <iframe src="https://www.youtube.com/embed/lL7Mfv3jYPQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>       
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="./assets/js/scrolloverflow.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
 <script type="text/javascript" src="./assets/js/scripts.js?v=1.3"></script>
-<script async defer type="text/javascript" src="./assets/js/velocity.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxhseafkxBSK3KH8NyCwp6BDsOMNWubFM&callback=initMap"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -158,6 +348,7 @@
         navigation: false,
         animateAnchors: true,
         autoScrolling: false,
+        fitToSection: false,
         // responsiveHeight: 1000,
         // responsiveWidth: 479,
         scrollingSpeed: 1000,
